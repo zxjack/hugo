@@ -3,7 +3,7 @@ title: "第一次尝试HEXO"
 date: 2018-07-20T00:19:57+08:00
 categories:  ["TECH"]
 showtoc: false 
-draft: true
+
 ---
 在折腾之后，终于成功的部署了HEXO，之中趟坑无数。第一篇文章就记录一下其中的几个关键步骤。  
 
