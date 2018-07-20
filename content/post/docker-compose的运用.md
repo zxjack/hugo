@@ -5,6 +5,7 @@ categories:  ["TECH"]
 showtoc: false 
 tags: 
 - docker
+typora-root-url: ..\..\static
 ---
 从去年开始，在qnap上开始学习使用docker。发现docker真是个好东西，可以在linux上不断的随便折腾，搞错了就删掉然后重新来过，非常适合新手。另外，也非常适合在不同vps上进行部署，完全不用管底层系统是啥，debian，Ubuntu都可以。而且，现在在<https://hub.docker.com>上有很多封装好的docker images，可以直接pull下来，直接运行使用。  
 <!--more-->
@@ -17,7 +18,7 @@ tags:
 
 Docker-Compose 是 Docker 的一种编排服务，是一个用于在 Docker 上定义并运行复杂应用的工具，可以让用户在集群中部署分布式应用。通过 Docker-Compose 用户可以很容易地用一个配置文件定义一个多容器的应用，然后使用一条指令安装这个应用的所有依赖，完成构建。Docker-Compose 解决了容器与容器之间如何管理编排的问题，大概的工作原理为：
 
-{% asset_img docker-compose.png This is an example image %}
+![docker-compose](/img/docker-compose.png)
 
 用通俗的话来说，docker compose就是一个批处理，可以将多个docker通过一个批处理进行统一的调度是使用。  
 
