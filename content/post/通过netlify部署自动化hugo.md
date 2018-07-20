@@ -244,3 +244,8 @@ HUGO_ENABLEGITINFO = "true"
 到此就完成了所有的步骤，点击“Deploy site” 就搞定了。netlify会立刻进行自动部署，同时在我们写完博客之后只要推送到github上，netlify就会自动的更新页面，等一下下我们刷新网站就可以看到发布的页面了。
 
 ![](https://d33wubrfki0l68.cloudfront.net/a9f55d92792a554cb775cd0d10eddf445338b83a/0a424/images/hosting-and-deployment/hosting-on-netlify/netlify-deploying-site.gif)
+
+netlify发布hugo还是很快的，大概20秒左右就搞定了。
+
+![mark](http://onqn9gsrl.bkt.clouddn.com/blog/180720/eIB3L50777.png?imageslim)
+
