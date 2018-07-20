@@ -83,9 +83,9 @@ showtoc: false
 
 7.hugo有个坑，初始化之后默认是没有主题的，需要至少下载一个主题才能使用。我用的是hugo-theme-cleanwhite
 
-     ```
+```
 git submodule add https://github.com/zhaohuabing/hugo-theme-cleanwhite themes/hugo-theme-cleanwhite
-     ```
+```
 
 之所以用`git submodule`是为了之后在netlify中使用。
 
