@@ -1,5 +1,5 @@
 ---
-title: "Test"
+title: "Hugo Test"
 subtitle:    ""
 description: ""
 date: 2018-07-19T22:29:54+08:00
@@ -12,6 +12,10 @@ showtoc: false
 typora-copy-images-to: ..\..\static\img
 typora-root-url: ..\..\static
 ---
+
+
+写在前面，为啥用hugo，最主要的原因是之前尝试了hexo，挺好用的。但是考虑到一旦电脑更换了，就需要重新部署。另外也尝试了自动化部署hexo，但是在gitlab上用CI自动部署好慢呀。最终选了hugo，从目前使用的情况来看，还是明显比hexo快不少。但是就部署而言还是比较麻烦的。
+
 1.测试一下推送是否能够成功 ：成功
 
 2.使用Typora,插入图片进行测试。自动插入、保存到相应的目录，试试看。
