@@ -1,7 +1,7 @@
 ---
 title: docker compose的运用
 date: 2018-07-18 16:57:27
-categories:  ["TECH"]
+categories:  ["Tech"]
 showtoc: false 
 tags: 
 - docker

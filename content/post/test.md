@@ -6,7 +6,7 @@ date: 2018-07-19T22:29:54+08:00
 author:      ""
 image:       ""
 tags:        ["测试", "hugo"]
-categories:  ["TECH"]
+categories:  ["Tech"]
 showtoc: false 
 
 typora-copy-images-to: ..\..\static\img
