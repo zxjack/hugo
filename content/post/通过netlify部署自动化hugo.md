@@ -25,21 +25,24 @@ hugo的安装非常简单，上hugo的官方网站：https://gohugo.io/可以查
 
 hugo的环境搭建也是比较简单的，按照如下步骤进行：（Windows）
 
-1. 建立需要运行的目录例如`hugo`  
+1.建立需要运行的目录例如`hugo`  
 
-2. 进入相应的目录  
+2.进入相应的目录  
 
    ``` bash
    cd hugo
    ```
-3. 初始化hugo 
+
+3.初始化hugo
 
    ```bash
    hugo new site mysite
    ```
-4. 然后 hugo 会自动生成这样一个目录结构： 
+
+4.然后 hugo 会自动生成这样一个目录结构： 
 
    ```
+
     ▸ archetypes/
     ▸ content/
     ▸ layouts/
@@ -49,13 +52,13 @@ hugo的环境搭建也是比较简单的，按照如下步骤进行：（Windows
 
 其中config.toml是配置文件，content中放的是markdown文章，static里面放的是网站用到的相关资料，如图片等。
 
-5. **执行相应的命令需要在创建的网站目录mysite中运行**
+5.**执行相应的命令需要在创建的网站目录mysite中运行**
 
    ```
    cd mysite
    ```
-   
-6. 建立博客文章
+
+6.建立博客文章
 
    ```
 hugo new post/myblog.md #建立博客日志，创建的博客日志在content/post目录中
@@ -73,12 +76,12 @@ author:      ""
 image:       ""
 tags:        ["tag1", "tag2"]
 categories:  ["TECH"]
-showtoc: false 
+showtoc: false
 ---
 
    ```
 
-7. hugo有个坑，初始化之后默认是没有主题的，需要至少下载一个主题才能使用。我用的是hugo-theme-cleanwhite
+7.hugo有个坑，初始化之后默认是没有主题的，需要至少下载一个主题才能使用。我用的是hugo-theme-cleanwhite
 
      ```
 git submodule add https://github.com/zhaohuabing/hugo-theme-cleanwhite themes/hugo-theme-cleanwhite
@@ -86,14 +89,13 @@ git submodule add https://github.com/zhaohuabing/hugo-theme-cleanwhite themes/hu
 
 之所以用`git submodule`是为了之后在netlify中使用。
 
-8. 在本地进行测试运行下面的命令
+8.在本地进行测试运行下面的命令
 
     ```
 hugo serve -t  hugo-theme-cleanwhite –-watch
     ```
 
 然后在本地通过访问http://127.0.0.1:1313进行测试
-
 
 
 ### 第二步 注册github帐号，并新建一个repo用于hugo使用
