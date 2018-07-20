@@ -25,20 +25,18 @@ hugo的安装非常简单，上hugo的官方网站：https://gohugo.io/可以查
 
 hugo的环境搭建也是比较简单的，按照如下步骤进行：（Windows）
 
-1. 建立需要运行的目录例如`hugo`
+1. 建立需要运行的目录例如`hugo`  
 
-2. 进入相应的目录
+2. 进入相应的目录  
 
    ``` bash
    cd hugo
    ```
-
-3. 初始化hugo
+3. 初始化hugo 
 
    ```bash
    hugo new site mysite
    ```
-
 4. 然后 hugo 会自动生成这样一个目录结构： 
 
    ```
@@ -56,9 +54,7 @@ hugo的环境搭建也是比较简单的，按照如下步骤进行：（Windows
    ```
    cd mysite
    ```
-
    
-
 6. 建立博客文章
 
    ```
@@ -93,7 +89,7 @@ git submodule add https://github.com/zhaohuabing/hugo-theme-cleanwhite themes/hu
 8. 在本地进行测试运行下面的命令
 
     ```
-hugo serve -t  hugo-theme-cleanwhite
+hugo serve -t  hugo-theme-cleanwhite –-watch
     ```
 
 然后在本地通过访问http://127.0.0.1:1313进行测试
