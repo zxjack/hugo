@@ -5,7 +5,7 @@ description: ""
 date: 2018-07-20T16:13:19+08:00
 author:      "Zhengx"
 image:       ""
-tags:        ["hugo", "netlify"]
+tags:        ["hugo", "netlify","Tech"]
 categories:  ["Tech" ]
 published: true
 showtoc: false 

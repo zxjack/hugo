@@ -2,6 +2,7 @@
 title: "第一次尝试HEXO"
 date: 2018-07-20T00:19:57+08:00
 categories:  ["Tech"]
+tags: ["Tech"]
 showtoc: false 
 
 ---

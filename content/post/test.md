@@ -5,7 +5,7 @@ description: ""
 date: 2018-07-19T22:29:54+08:00
 author:      ""
 image:       ""
-tags:        ["测试", "hugo"]
+tags:        ["测试", "hugo","Tech"]
 categories:  ["Tech"]
 showtoc: false 
 
