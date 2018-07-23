@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "zxjack.netlify.com"
 title = "游侠客 BLOG"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
