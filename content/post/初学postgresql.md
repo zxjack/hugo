@@ -60,3 +60,21 @@ psql
 ![](https://pic-1253455688.cos.ap-shanghai.myqcloud.com/20180727224951.png)
 
 Did not find any relation named：名字加引号。
+
+数据库的备份：
+
+在运行数据库的docker中用postgres用户运行一下命令
+
+```
+pg_dump 数据库名称 > 备份文件.dump
+```
+
+![](https://pic-1253455688.cos.ap-shanghai.myqcloud.com/20180727232757.png)
+
+数据库的恢复
+
+恢复 pg_dump 出来的文件使用命令：
+
+```
+ psql 数据库名称 < 备份文件.dump
+```
