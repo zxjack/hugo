@@ -1,5 +1,6 @@
 ---
 title: docker compose的运用
+description: "从去年开始，在qnap上开始学习使用docker。发现docker真是个好东西，可以在Linux上不断的随便折腾，搞错了就删掉然后重新来过，非常适合新手。另外，也非常适合在不同vps上进行部署，完全不用管底层系统是啥，debian，Ubuntu都可以。而且，现在在https://hub.docker.com上有很多封装好的docker images，可以直接pull下来，直接运行使用。  "
 date: 2018-07-18 16:57:27
 categories:  ["Tech", "Docker"]
 showtoc: false 

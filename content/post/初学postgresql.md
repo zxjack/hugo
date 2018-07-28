@@ -1,7 +1,7 @@
 ---
-title: "初学postgresql"
+title: "初学PostgreSQL"
 subtitle:    ""
-description: ""
+description: "初学PostgreSQL,了解PostgreSQL的基本命令"
 date: 2018-07-27T22:30:21+08:00
 author:      "Zhengx"
 image:       ""
