@@ -49,3 +49,4 @@ git push origin master
 
 ```
 
+4.要在首页显示文章的摘要，就在md文件头部的`description:`  中添加内容就OK了。不写的话首页大概只显示70个字的内容。
