@@ -6,7 +6,7 @@ languageCode = "en-us"
 disqusShortname = "zxjack"
 googleAnalytics = "UA-122640449-1"
 preserveTaxonomyNames = true
-paginate = 5 #frontpage pagination
+paginate = 10 #frontpage pagination
 hasCJKLanguage = true
 
 [outputs]
