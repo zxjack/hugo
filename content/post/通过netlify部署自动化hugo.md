@@ -13,7 +13,7 @@ showtoc: false
 
 
 
-##  小白如何搞定自动化部署hugo呢？
+###  小白如何搞定自动化部署hugo呢？
 
 作为非IT人事，完全靠google搞定了在netlify上自动化部署hugo，不得不佩服一下自己。这个文章作为部署的记录，重新复习一下过程。一共分四步，慢慢往下看吧。
 
@@ -25,7 +25,7 @@ showtoc: false
 
 #### 第一步 在本地部署hugo  
 
-hugo的安装非常简单，上hugo的官方网站：https://gohugo.io/可以查看相关的文档包括安装说明等。我是在windowns 10的环境中使用的，所以就下载[**hugo_0.44_Windows-64bit.zip**](https://github.com/gohugoio/hugo/releases/download/v0.44/hugo_0.44_Windows-64bit.zip)到本地，然后解压到一个目录下就好了。hugo的版本发布可以在下面的地址：https://github.com/gohugoio/hugo/releases进行查看。注意：
+hugo的安装非常简单，上hugo的官方网站：<https://gohugo.io/> 可以查看相关的文档包括安装说明等。我是在windowns 10的环境中使用的，所以就下载[**hugo_0.44_Windows-64bit.zip**](https://github.com/gohugoio/hugo/releases/download/v0.44/hugo_0.44_Windows-64bit.zip)到本地，然后解压到一个目录下就好了。hugo的版本发布可以在下面的地址：https://github.com/gohugoio/hugo/releases 进行查看。注意：
 
 - 下载解压之后，hugo.exe命令只能在当前的文件夹中运行，这个比较麻烦，我是在系统中添加了变量PATH之后解决了这个问题。这样我就可以在任何地方执行hugo命令了。
 
