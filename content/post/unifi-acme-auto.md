@@ -80,5 +80,7 @@ acme.sh --force --issue --dns dns_namesilo --dnssleep 900 -d unifi.myname.com --
 
 上面的命令除了完成证书申请之外，还将备份原有的证书，部署证书到unifi-control中，同时重启unifi服务。
 
+### 最后的总结
 
+这个方案可以自动的完成证书申请、备份、部署、更新，所需要的仅仅是在修改一个申请的域名就ok了，确实方便实用。
 
