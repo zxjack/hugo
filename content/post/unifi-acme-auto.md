@@ -1,7 +1,7 @@
 ---
 title: "通过acme.sh自动部署UniFi Controller ssl证书"
 subtitle:    ""
-description: ""
+description: "使用**UniFi Controller** 默认是通过https://IP:8443 进行登录的，但是在这种情况下由于没有证书导致chrome在进行访问的时候总是会有警告。如何部署ssl证书是作为强迫症的人必须解决的问题。对于这个问题有很多的解决办法，免费而方便的就是通过acme.sh自动部署Let’s Encrypt 证书。这里提出的解决方案能够自动的申请证书并完成证书的导入。"
 date: 2018-08-27T21:10:36+08:00
 author:      "Zhengx"
 image:       ""
@@ -15,7 +15,7 @@ showtoc: false
 
 ## 写在前面：
 
-使用**UniFi Controller** 默认是通过https://IP:8443进行登录的，但是在这种情况下由于没有证书导致chrome在进行访问的时候总是会有警告。如何部署ssl证书是作为强迫症的人必须解决的问题。对于这个问题有很多的解决办法，免费而方便的就是通过acme.sh自动部署Let’s Encrypt 证书。这里提出的解决方案能够自动的申请证书并完成证书的导入。
+使用**UniFi Controller** 默认是通过https://IP:8443 进行登录的，但是在这种情况下由于没有证书导致chrome在进行访问的时候总是会有警告。如何部署ssl证书是作为强迫症的人必须解决的问题。对于这个问题有很多的解决办法，免费而方便的就是通过acme.sh自动部署Let’s Encrypt 证书。这里提出的解决方案能够自动的申请证书并完成证书的导入。
 
 **LET'S GO**
 
@@ -70,13 +70,15 @@ echo "** Testing Nginx and restarting"
 export Namesilo_Key="YOUR-NAMESILO-API-KEY"
 ```
 
-### 正式申请证书
+### 正式申请证书并完成部署
 
 通过下面的命令进行证书申请，需要修改`unifi.myname.com`这个地方，将其修改为需要使用的域名。acme.sh命令在申请域名的证书的时候将域名增加在**-d**这个参数后面。
 
 ```
 acme.sh --force --issue --dns dns_namesilo --dnssleep 900 -d unifi.myname.com --pre-hook "touch /etc/ssl/private/cert.tar; tar -zcvf /root/.acme.sh/CloudKeySSL_`date +%Y-%m-%d_%H.%M.%S`.tgz /etc/ssl/private/*" --fullchainpath /etc/ssl/private/cloudkey.crt --keypath /etc/ssl/private/cloudkey.key --reloadcmd "sh /root/.acme.sh/cloudkey-renew-hook.sh"
 ```
+
+上面的命令除了完成证书申请之外，还将备份原有的证书，部署证书到unifi-control中，同时重启unifi服务。
 
 
 
