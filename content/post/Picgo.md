@@ -1,10 +1,8 @@
 ---
 title: "Picgo"
 subtitle:    "非常好用的markdown图床工具"
-description: "今天再找图床的时候发现了个非常好用的图床工具：picgo，它支持绝大部分的图床包括腾讯云、七牛、阿里云、github、又拍云、sm.ms、Imgur、微博等。而且是macOS、linux和windows64都支持。必须试着用用看。"
-
+description: "今天再找图床的时候发现了个非常好用的图床工具：picgo，它支持绝大部分的图床包括腾讯云、七牛、阿里云、github、又拍云、sm.ms、Imgur、微博等。而且是macOS、linux和windows64都支持。必须试着用用看。
 官方链接为：https://github.com/Molunerfinn/PicGo
-
 我在windows10下试着用了一下，直接下载windows版本安装就ok了。唯一麻烦一点的是图床的配置方面，不过有比较详细的文档跟着做就OK了。"
 date: 2018-07-24T23:57:05+08:00
 author:      "Zhengx"
